@@ -1,0 +1,60 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Best Way to Learn Programming</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Best Way to Learn programming</h1>
+    <p id="description">Thank you for helping us strengthen our programming community.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name <input id="name" type="text" required placeholder="Full Name" /></label>
+      <label for="email" id="email-label">Email <input id="email" type="email" required placeholder="Programmer@mail.com" /></label>
+    <label for="number" id="number-label">Age <input id="number" type="number" min="13" max="120" placeholder="13+" /></label>
+    <label for="dropdown">Best Method <select id="dropdown">
+      <option>(select one)</option>
+      <option>Computer Science Degree</option>
+      <option>Bootcamp</option>
+      <option>freeCodeCamp</option>
+      <option>3rd Eye Meditation</option>
+    </select></label>
+    <h2>How Long Have You Been Programming?</h2>
+    <label id="-1"><input type="radio" name="years-programming" for="-1" value="-1"  /> (Less than 1 Year)</label>
+    <label id="1-3"><input type="radio" name="years-programming" for="1-3" value="1-3" /> (1-3 Years)</label> 
+    <label id="3-5"><input type="radio" name="years-programming" for="3-5" value="3-5" /> (3-5 Years)</label> 
+    <label id="5+" ><input type="radio" name="years-programming" for="5+" value="5+" /> (More than 5 Years)</label>
+    <h2>What Kind of Programmer are You?</h2>
+    <label for="front-end"><input type="checkbox" name="kind-of" id="front-end" value="front-end" /> Front-End</label>
+    <label for="back-end"><input type="checkbox" id="back-end" name="kind-of" value="back-end" /> Back-End</label>
+    <label for="full-stack"><input type="checkbox" id="full-stack" name="kind-of" value="full-stack" /> Full-Stack</label>
+    <h2>What is your Favorite Programming Language/Languages and Why?</h2>
+      <label for="textarea"><textarea id="textarea" placeholder="C and C++ because all other languages are based off of them..." rows="3"
+      cols="30"></textarea></label>
+      <div></div>
+
+    <label for="submit"><input type="submit" id="submit" /></label>
+
+    </form> 
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+label {display:block;
+}
+h1, h2, p {text-align: center;}
+body {background-color: green;}
+label {display: block;
+text-align: center;
+margin: 1em auto;}
+textarea {width: 65%;}
+form {width: 60%;
+margin: 0 auto;}
+
+** end of undefined **
+
